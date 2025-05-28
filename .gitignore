@@ -1,0 +1,13 @@
+# Ignore node_modules folder (common for Node.js projects)
+node_modules/
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore folder
+models/
+inferences/
