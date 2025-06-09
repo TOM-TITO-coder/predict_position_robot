@@ -15,8 +15,8 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 from model_class import MLPModel, CNN1Model, CNN2Model, MLP_CNN1_Model, MLP_CNN2_Model, CNN1_CNN2_Model, MLP_CNN1_CNN2_Model
 
 # --- SETTINGS ---
-MODEL_DIR = 'D:/InstituteTechnologyCambodia/Intern-year-5/project/robot_app/models'
-YOLO_PATH = 'D:/InstituteTechnologyCambodia/Intern-year-5/project/robot_app/references/last.pt'
+MODEL_DIR = 'D:/InstituteTechnologyCambodia/Intern-year-5/project/robot_app/models/ex5'
+YOLO_PATH = 'D:/InstituteTechnologyCambodia/Intern-year-5/project/robot_app/inferences/last.pt'
 IMG_SIZE = (640, 480)
 MAX_POLY_POINTS = 50
 POLY_DIM = MAX_POLY_POINTS * 2
