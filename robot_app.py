@@ -69,7 +69,7 @@ def draw_polygon_and_pred(img_pil, poly_tensor, pred_xy=None, color="lime"):
     poly_points = poly_points[(poly_points != 0).any(axis=1)]
     if len(poly_points) >= 3:
         poly_points_list = [tuple(map(float, pt)) for pt in poly_points]
-        draw.polygon(poly_points_list, outline=color, width=10)
+        draw.polygon(poly_points_list, outline=color, width=3)
     if pred_xy is not None and len(pred_xy) == 2:
         draw.ellipse(
             [(pred_xy[0] - 6, pred_xy[1] - 6), (pred_xy[0] + 6, pred_xy[1] + 6)],
